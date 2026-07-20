@@ -1,0 +1,5648 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "2026-07-20-v1-elementary-review-240",
+  "title": "小学1〜6年 漢字総復習 240問",
+  "description": "小学校6年間の総復習用。通常書き取り180問、同音異義語・同訓異字30問、四字熟語30問。",
+  "questions": [
+    {
+      "id": "elem-std-001",
+      "type": "standard",
+      "prompt": "朝、元気よく【あいさつ】をする。",
+      "answer": "挨拶",
+      "reading": "あいさつ",
+      "meaning": "人に会ったときに交わす言葉や動作。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-002",
+      "type": "standard",
+      "prompt": "友達と力を合わせて【きょうりょく】する。",
+      "answer": "協力",
+      "reading": "きょうりょく",
+      "meaning": "同じ目的のために力を合わせること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-003",
+      "type": "standard",
+      "prompt": "自分の【いけん】を分かりやすく話す。",
+      "answer": "意見",
+      "reading": "いけん",
+      "meaning": "物事についての考え。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-004",
+      "type": "standard",
+      "prompt": "図書館で本を【かりる】。",
+      "answer": "借りる",
+      "reading": "かりる",
+      "meaning": "あとで返す約束で使わせてもらうこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-005",
+      "type": "standard",
+      "prompt": "使った道具を元の場所へ【かえす】。",
+      "answer": "返す",
+      "reading": "かえす",
+      "meaning": "借りた物を持ち主に戻すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-006",
+      "type": "standard",
+      "prompt": "大切な約束を【まもる】。",
+      "answer": "守る",
+      "reading": "まもる",
+      "meaning": "決まりや約束に従うこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-007",
+      "type": "standard",
+      "prompt": "雨の日は足元に【ちゅうい】する。",
+      "answer": "注意",
+      "reading": "ちゅうい",
+      "meaning": "気を付けること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-008",
+      "type": "standard",
+      "prompt": "事故を【ふせぐ】ために左右を確認する。",
+      "answer": "防ぐ",
+      "reading": "ふせぐ",
+      "meaning": "悪いことが起こらないようにすること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-009",
+      "type": "standard",
+      "prompt": "係の仕事を最後まで【せきにん】をもって行う。",
+      "answer": "責任",
+      "reading": "せきにん",
+      "meaning": "自分の役目を果たす務め。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-010",
+      "type": "standard",
+      "prompt": "みんなの前で学習の成果を【はっぴょう】する。",
+      "answer": "発表",
+      "reading": "はっぴょう",
+      "meaning": "多くの人に知らせること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-011",
+      "type": "standard",
+      "prompt": "話し合いの内容をノートに【きろく】する。",
+      "answer": "記録",
+      "reading": "きろく",
+      "meaning": "後に残すために書き留めること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-012",
+      "type": "standard",
+      "prompt": "分からない言葉を辞書で【しらべる】。",
+      "answer": "調べる",
+      "reading": "しらべる",
+      "meaning": "よく分かるように確かめること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-013",
+      "type": "standard",
+      "prompt": "集めた資料を項目ごとに【せいり】する。",
+      "answer": "整理",
+      "reading": "せいり",
+      "meaning": "乱れたものを整えること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-014",
+      "type": "standard",
+      "prompt": "文章の大事な部分を短く【まとめる】。",
+      "answer": "まとめる",
+      "reading": "まとめる",
+      "meaning": "ばらばらな内容を一つに整理すること。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-015",
+      "type": "standard",
+      "prompt": "物語の続きを自由に【そうぞう】する。",
+      "answer": "想像",
+      "reading": "そうぞう",
+      "meaning": "心の中に思い描くこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-016",
+      "type": "standard",
+      "prompt": "自分の考えを文章で【ひょうげん】する。",
+      "answer": "表現",
+      "reading": "ひょうげん",
+      "meaning": "考えや気持ちを形に表すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-017",
+      "type": "standard",
+      "prompt": "相手の立場を考えて【こうどう】する。",
+      "answer": "行動",
+      "reading": "こうどう",
+      "meaning": "実際に何かをすること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-018",
+      "type": "standard",
+      "prompt": "困っている人を進んで【たすける】。",
+      "answer": "助ける",
+      "reading": "たすける",
+      "meaning": "力を貸して困難から救うこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-019",
+      "type": "standard",
+      "prompt": "失敗してもあきらめずに【どりょく】する。",
+      "answer": "努力",
+      "reading": "どりょく",
+      "meaning": "目標に向かって力を尽くすこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-020",
+      "type": "standard",
+      "prompt": "毎日少しずつ練習を【つづける】。",
+      "answer": "続ける",
+      "reading": "つづける",
+      "meaning": "やめずに同じことを行うこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-021",
+      "type": "standard",
+      "prompt": "難しい問題に【ちょうせん】する。",
+      "answer": "挑戦",
+      "reading": "ちょうせん",
+      "meaning": "難しいことに立ち向かうこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-022",
+      "type": "standard",
+      "prompt": "目標を決めて学習の【けいかく】を立てる。",
+      "answer": "計画",
+      "reading": "けいかく",
+      "meaning": "物事の進め方を前もって決めること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-023",
+      "type": "standard",
+      "prompt": "予定どおりに作業を【すすめる】。",
+      "answer": "進める",
+      "reading": "すすめる",
+      "meaning": "物事を先へ運ぶこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-024",
+      "type": "standard",
+      "prompt": "課題を期限までに【かんせい】させる。",
+      "answer": "完成",
+      "reading": "かんせい",
+      "meaning": "すっかり出来上がること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-025",
+      "type": "standard",
+      "prompt": "テストの答えをもう一度【かくにん】する。",
+      "answer": "確認",
+      "reading": "かくにん",
+      "meaning": "正しいかどうか確かめること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-026",
+      "type": "standard",
+      "prompt": "間違えた理由を【はんせい】する。",
+      "answer": "反省",
+      "reading": "はんせい",
+      "meaning": "自分の行いを振り返ること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-027",
+      "type": "standard",
+      "prompt": "友達のよいところを【みとめる】。",
+      "answer": "認める",
+      "reading": "みとめる",
+      "meaning": "正しい、よいと受け入れること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-028",
+      "type": "standard",
+      "prompt": "自分と違う考えも【そんちょう】する。",
+      "answer": "尊重",
+      "reading": "そんちょう",
+      "meaning": "大切なものとして重んじること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-029",
+      "type": "standard",
+      "prompt": "係をみんなで【ぶんたん】する。",
+      "answer": "分担",
+      "reading": "ぶんたん",
+      "meaning": "仕事を分けて受け持つこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-030",
+      "type": "standard",
+      "prompt": "代表者を話し合いで【えらぶ】。",
+      "answer": "選ぶ",
+      "reading": "えらぶ",
+      "meaning": "いくつかの中から決めること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-031",
+      "type": "standard",
+      "prompt": "学級会で提案に【さんせい】する。",
+      "answer": "賛成",
+      "reading": "さんせい",
+      "meaning": "人の意見に同意すること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-032",
+      "type": "standard",
+      "prompt": "理由を述べて提案に【はんたい】する。",
+      "answer": "反対",
+      "reading": "はんたい",
+      "meaning": "ある考えに同意しないこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-033",
+      "type": "standard",
+      "prompt": "多数決で意見を【けってい】する。",
+      "answer": "決定",
+      "reading": "けってい",
+      "meaning": "はっきり決めること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-034",
+      "type": "standard",
+      "prompt": "話し合いで問題を【かいけつ】する。",
+      "answer": "解決",
+      "reading": "かいけつ",
+      "meaning": "問題をうまく処理すること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-035",
+      "type": "standard",
+      "prompt": "困ったときは先生に【そうだん】する。",
+      "answer": "相談",
+      "reading": "そうだん",
+      "meaning": "どうすればよいか意見を聞くこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-036",
+      "type": "standard",
+      "prompt": "友達からの質問に【こたえる】。",
+      "answer": "答える",
+      "reading": "こたえる",
+      "meaning": "問いに対して返事をすること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-037",
+      "type": "standard",
+      "prompt": "先生の説明を静かに【きく】。",
+      "answer": "聞く",
+      "reading": "きく",
+      "meaning": "音や話を耳で受け取ること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-038",
+      "type": "standard",
+      "prompt": "大切な部分に線を【ひく】。",
+      "answer": "引く",
+      "reading": "ひく",
+      "meaning": "線などを一方へ動かして表すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-039",
+      "type": "standard",
+      "prompt": "教科書の文章を声に出して【よむ】。",
+      "answer": "読む",
+      "reading": "よむ",
+      "meaning": "文字や文章の意味を理解すること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-040",
+      "type": "standard",
+      "prompt": "感想を原稿用紙に【かく】。",
+      "answer": "書く",
+      "reading": "かく",
+      "meaning": "文字や文章をしるすこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-041",
+      "type": "standard",
+      "prompt": "習った漢字を正しく【つかう】。",
+      "answer": "使う",
+      "reading": "つかう",
+      "meaning": "目的のために役立てること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-042",
+      "type": "standard",
+      "prompt": "言葉の意味を正しく【りかい】する。",
+      "answer": "理解",
+      "reading": "りかい",
+      "meaning": "意味や内容が分かること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-043",
+      "type": "standard",
+      "prompt": "二つの文章を【ひかく】する。",
+      "answer": "比較",
+      "reading": "ひかく",
+      "meaning": "違いや共通点を比べること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-044",
+      "type": "standard",
+      "prompt": "調べた結果から理由を【すいり】する。",
+      "answer": "推理",
+      "reading": "すいり",
+      "meaning": "分かっていることから考えを進めること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-045",
+      "type": "standard",
+      "prompt": "実験の結果をもとに【かんがえる】。",
+      "answer": "考える",
+      "reading": "かんがえる",
+      "meaning": "筋道を立てて思いをめぐらすこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-046",
+      "type": "standard",
+      "prompt": "予想が正しいか実験で【たしかめる】。",
+      "answer": "確かめる",
+      "reading": "たしかめる",
+      "meaning": "本当かどうか調べること。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-047",
+      "type": "standard",
+      "prompt": "観察したことを図に【あらわす】。",
+      "answer": "表す",
+      "reading": "あらわす",
+      "meaning": "見える形で示すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-048",
+      "type": "standard",
+      "prompt": "植物の成長を毎日【かんさつ】する。",
+      "answer": "観察",
+      "reading": "かんさつ",
+      "meaning": "様子を注意深く見ること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-049",
+      "type": "standard",
+      "prompt": "虫の体のつくりを【かんさつ】する。",
+      "answer": "観察",
+      "reading": "かんさつ",
+      "meaning": "様子を注意深く見ること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-050",
+      "type": "standard",
+      "prompt": "水の温度を【そくてい】する。",
+      "answer": "測定",
+      "reading": "そくてい",
+      "meaning": "器具を使って数値をはかること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-051",
+      "type": "standard",
+      "prompt": "実験に必要な器具を【じゅんび】する。",
+      "answer": "準備",
+      "reading": "じゅんび",
+      "meaning": "必要なものを前もってそろえること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-052",
+      "type": "standard",
+      "prompt": "安全な手順で実験を【おこなう】。",
+      "answer": "行う",
+      "reading": "おこなう",
+      "meaning": "物事を実際にすること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-053",
+      "type": "standard",
+      "prompt": "実験後は器具をきれいに【あらう】。",
+      "answer": "洗う",
+      "reading": "あらう",
+      "meaning": "水などで汚れを落とすこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-054",
+      "type": "standard",
+      "prompt": "水を熱して【じょうはつ】させる。",
+      "answer": "蒸発",
+      "reading": "じょうはつ",
+      "meaning": "液体が気体になること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-055",
+      "type": "standard",
+      "prompt": "水蒸気が冷えて水に【もどる】。",
+      "answer": "戻る",
+      "reading": "もどる",
+      "meaning": "元の状態や場所に帰ること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-056",
+      "type": "standard",
+      "prompt": "氷がとけて水に【へんか】する。",
+      "answer": "変化",
+      "reading": "へんか",
+      "meaning": "状態や性質が変わること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-057",
+      "type": "standard",
+      "prompt": "空気は温めると【ぼうちょう】する。",
+      "answer": "膨張",
+      "reading": "ぼうちょう",
+      "meaning": "体積が大きくなること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-058",
+      "type": "standard",
+      "prompt": "磁石の同じ極どうしは【しりぞけあう】。",
+      "answer": "退け合う",
+      "reading": "しりぞけあう",
+      "meaning": "互いに遠ざけようとすること。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-059",
+      "type": "standard",
+      "prompt": "電池をつないで豆電球を【てんとう】させる。",
+      "answer": "点灯",
+      "reading": "てんとう",
+      "meaning": "明かりをつけること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-060",
+      "type": "standard",
+      "prompt": "電流が流れる道を【かいろ】という。",
+      "answer": "回路",
+      "reading": "かいろ",
+      "meaning": "電流が流れるひと続きの道。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-061",
+      "type": "standard",
+      "prompt": "地球は太陽の周りを【こうてん】する。",
+      "answer": "公転",
+      "reading": "こうてん",
+      "meaning": "天体が別の天体の周りを回ること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-062",
+      "type": "standard",
+      "prompt": "地球は一日に一回【じてん】する。",
+      "answer": "自転",
+      "reading": "じてん",
+      "meaning": "天体が自身の軸を中心に回ること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-063",
+      "type": "standard",
+      "prompt": "月の形は日ごとに【へんか】する。",
+      "answer": "変化",
+      "reading": "へんか",
+      "meaning": "形や状態が変わること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-064",
+      "type": "standard",
+      "prompt": "星の位置を方角ごとに【かんさつ】する。",
+      "answer": "観察",
+      "reading": "かんさつ",
+      "meaning": "注意深く見ること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-065",
+      "type": "standard",
+      "prompt": "大雨で川の水位が【じょうしょう】する。",
+      "answer": "上昇",
+      "reading": "じょうしょう",
+      "meaning": "上へ上がること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-066",
+      "type": "standard",
+      "prompt": "気温が急に【ていか】する。",
+      "answer": "低下",
+      "reading": "ていか",
+      "meaning": "低くなること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-067",
+      "type": "standard",
+      "prompt": "天気予報で台風の進路を【かくにん】する。",
+      "answer": "確認",
+      "reading": "かくにん",
+      "meaning": "確かめること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-068",
+      "type": "standard",
+      "prompt": "強い風で木の枝が【ゆれる】。",
+      "answer": "揺れる",
+      "reading": "ゆれる",
+      "meaning": "左右や上下に動くこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-069",
+      "type": "standard",
+      "prompt": "地震に備えて家具を【こてい】する。",
+      "answer": "固定",
+      "reading": "こてい",
+      "meaning": "動かないように留めること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-070",
+      "type": "standard",
+      "prompt": "非常口の場所を【かくにん】する。",
+      "answer": "確認",
+      "reading": "かくにん",
+      "meaning": "確かめること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-071",
+      "type": "standard",
+      "prompt": "災害時には落ち着いて【ひなん】する。",
+      "answer": "避難",
+      "reading": "ひなん",
+      "meaning": "危険な場所から安全な場所へ移ること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-072",
+      "type": "standard",
+      "prompt": "地域の防災訓練に【さんか】する。",
+      "answer": "参加",
+      "reading": "さんか",
+      "meaning": "仲間に加わること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-073",
+      "type": "standard",
+      "prompt": "消防署の仕事について【しらべる】。",
+      "answer": "調べる",
+      "reading": "しらべる",
+      "meaning": "詳しく確かめること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-074",
+      "type": "standard",
+      "prompt": "警察は地域の安全を【まもる】。",
+      "answer": "守る",
+      "reading": "まもる",
+      "meaning": "危険から保護すること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-075",
+      "type": "standard",
+      "prompt": "道路を渡る前に左右を【かくにん】する。",
+      "answer": "確認",
+      "reading": "かくにん",
+      "meaning": "確かめること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-076",
+      "type": "standard",
+      "prompt": "交通ルールを正しく【まもる】。",
+      "answer": "守る",
+      "reading": "まもる",
+      "meaning": "決まりに従うこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-077",
+      "type": "standard",
+      "prompt": "電車の時刻を【しらべる】。",
+      "answer": "調べる",
+      "reading": "しらべる",
+      "meaning": "必要な情報を確かめること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-078",
+      "type": "standard",
+      "prompt": "目的地までの道順を【かくにん】する。",
+      "answer": "確認",
+      "reading": "かくにん",
+      "meaning": "確かめること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-079",
+      "type": "standard",
+      "prompt": "地図の記号から土地の様子を【よみとる】。",
+      "answer": "読み取る",
+      "reading": "よみとる",
+      "meaning": "書かれた内容や意味をつかむこと。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-080",
+      "type": "standard",
+      "prompt": "日本の国土は南北に長く【のびる】。",
+      "answer": "延びる",
+      "reading": "のびる",
+      "meaning": "長く続くこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-081",
+      "type": "standard",
+      "prompt": "山地から平野へ川が【ながれる】。",
+      "answer": "流れる",
+      "reading": "ながれる",
+      "meaning": "水などが移動すること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-082",
+      "type": "standard",
+      "prompt": "川の下流には広い平野が【ひろがる】。",
+      "answer": "広がる",
+      "reading": "ひろがる",
+      "meaning": "範囲が大きくなること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-083",
+      "type": "standard",
+      "prompt": "海に囲まれた土地を【しま】という。",
+      "answer": "島",
+      "reading": "しま",
+      "meaning": "周りを海や湖に囲まれた陸地。",
+      "answerLength": 1,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-084",
+      "type": "standard",
+      "prompt": "県の位置を地図で【たしかめる】。",
+      "answer": "確かめる",
+      "reading": "たしかめる",
+      "meaning": "正しいか調べること。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-085",
+      "type": "standard",
+      "prompt": "地域の特色を資料から【よみとる】。",
+      "answer": "読み取る",
+      "reading": "よみとる",
+      "meaning": "意味や内容をつかむこと。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-086",
+      "type": "standard",
+      "prompt": "工場では製品を大量に【せいさん】する。",
+      "answer": "生産",
+      "reading": "せいさん",
+      "meaning": "品物を作り出すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-087",
+      "type": "standard",
+      "prompt": "農家が米や野菜を【さいばい】する。",
+      "answer": "栽培",
+      "reading": "さいばい",
+      "meaning": "植物を育てること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-088",
+      "type": "standard",
+      "prompt": "漁師が海で魚を【とる】。",
+      "answer": "捕る",
+      "reading": "とる",
+      "meaning": "動物などをつかまえること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-089",
+      "type": "standard",
+      "prompt": "収穫した作物を市場へ【しゅっか】する。",
+      "answer": "出荷",
+      "reading": "しゅっか",
+      "meaning": "商品を送り出すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-090",
+      "type": "standard",
+      "prompt": "商品を店までトラックで【ゆそう】する。",
+      "answer": "輸送",
+      "reading": "ゆそう",
+      "meaning": "人や物を運ぶこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-091",
+      "type": "standard",
+      "prompt": "店では商品を消費者に【はんばい】する。",
+      "answer": "販売",
+      "reading": "はんばい",
+      "meaning": "品物を売ること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-092",
+      "type": "standard",
+      "prompt": "必要な物を選んで【こうにゅう】する。",
+      "answer": "購入",
+      "reading": "こうにゅう",
+      "meaning": "代金を払って買うこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-093",
+      "type": "standard",
+      "prompt": "買い物では値段と品質を【くらべる】。",
+      "answer": "比べる",
+      "reading": "くらべる",
+      "meaning": "違いを確かめること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-094",
+      "type": "standard",
+      "prompt": "限りある資源を大切に【つかう】。",
+      "answer": "使う",
+      "reading": "つかう",
+      "meaning": "目的のために用いること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-095",
+      "type": "standard",
+      "prompt": "ごみを種類ごとに【ぶんべつ】する。",
+      "answer": "分別",
+      "reading": "ぶんべつ",
+      "meaning": "種類によって分けること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-096",
+      "type": "standard",
+      "prompt": "使い終わった物を【さいりよう】する。",
+      "answer": "再利用",
+      "reading": "さいりよう",
+      "meaning": "もう一度役立てること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-097",
+      "type": "standard",
+      "prompt": "電気や水をむだにしないよう【せつやく】する。",
+      "answer": "節約",
+      "reading": "せつやく",
+      "meaning": "むだを省いて少なく使うこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-098",
+      "type": "standard",
+      "prompt": "自然環境を将来まで【ほご】する。",
+      "answer": "保護",
+      "reading": "ほご",
+      "meaning": "危険や害から守ること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-099",
+      "type": "standard",
+      "prompt": "森には多くの生き物が【せいそく】する。",
+      "answer": "生息",
+      "reading": "せいそく",
+      "meaning": "生き物がその場所で暮らすこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-100",
+      "type": "standard",
+      "prompt": "絶滅しそうな動物を【まもる】。",
+      "answer": "守る",
+      "reading": "まもる",
+      "meaning": "危険から保護すること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-101",
+      "type": "standard",
+      "prompt": "海岸のごみを集めて【せいそう】する。",
+      "answer": "清掃",
+      "reading": "せいそう",
+      "meaning": "掃除してきれいにすること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-102",
+      "type": "standard",
+      "prompt": "地域の川をきれいに【たもつ】。",
+      "answer": "保つ",
+      "reading": "たもつ",
+      "meaning": "よい状態を続けること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-103",
+      "type": "standard",
+      "prompt": "水は生活に欠かせない大切な【しげん】だ。",
+      "answer": "資源",
+      "reading": "しげん",
+      "meaning": "生活や産業に役立つもの。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-104",
+      "type": "standard",
+      "prompt": "外国から原料を【ゆにゅう】する。",
+      "answer": "輸入",
+      "reading": "ゆにゅう",
+      "meaning": "外国から品物を買い入れること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-105",
+      "type": "standard",
+      "prompt": "日本の製品を外国へ【ゆしゅつ】する。",
+      "answer": "輸出",
+      "reading": "ゆしゅつ",
+      "meaning": "外国へ品物を送り出すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-106",
+      "type": "standard",
+      "prompt": "世界の国々と交流を【ふかめる】。",
+      "answer": "深める",
+      "reading": "ふかめる",
+      "meaning": "程度をさらに大きくすること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-107",
+      "type": "standard",
+      "prompt": "異なる文化を互いに【りかい】する。",
+      "answer": "理解",
+      "reading": "りかい",
+      "meaning": "意味や考えが分かること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-108",
+      "type": "standard",
+      "prompt": "外国の人と気持ちを【つたえあう】。",
+      "answer": "伝え合う",
+      "reading": "つたえあう",
+      "meaning": "互いに知らせること。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-109",
+      "type": "standard",
+      "prompt": "平和な社会をみんなで【きずく】。",
+      "answer": "築く",
+      "reading": "きずく",
+      "meaning": "努力して作り上げること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-110",
+      "type": "standard",
+      "prompt": "国民には法律を守る【ぎむ】がある。",
+      "answer": "義務",
+      "reading": "ぎむ",
+      "meaning": "必ず果たさなければならない務め。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-111",
+      "type": "standard",
+      "prompt": "国民の生活を支えるために【ぜいきん】を納める。",
+      "answer": "税金",
+      "reading": "ぜいきん",
+      "meaning": "国や地方公共団体に納めるお金。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-112",
+      "type": "standard",
+      "prompt": "選挙で代表者を【えらぶ】。",
+      "answer": "選ぶ",
+      "reading": "えらぶ",
+      "meaning": "候補の中から決めること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-113",
+      "type": "standard",
+      "prompt": "国会は法律を【せいてい】する。",
+      "answer": "制定",
+      "reading": "せいてい",
+      "meaning": "決まりや法律を定めること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-114",
+      "type": "standard",
+      "prompt": "内閣は国の政治を【すすめる】。",
+      "answer": "進める",
+      "reading": "すすめる",
+      "meaning": "物事を先へ運ぶこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-115",
+      "type": "standard",
+      "prompt": "裁判所は争いを法律に基づいて【はんだん】する。",
+      "answer": "判断",
+      "reading": "はんだん",
+      "meaning": "考えて決めること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-116",
+      "type": "standard",
+      "prompt": "日本国憲法は国の基本的な決まりを【さだめる】。",
+      "answer": "定める",
+      "reading": "さだめる",
+      "meaning": "決まりとして決定すること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-117",
+      "type": "standard",
+      "prompt": "すべての人の人権を【そんちょう】する。",
+      "answer": "尊重",
+      "reading": "そんちょう",
+      "meaning": "大切に扱うこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-118",
+      "type": "standard",
+      "prompt": "男女がともに社会へ【さんか】する。",
+      "answer": "参加",
+      "reading": "さんか",
+      "meaning": "仲間に加わること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-119",
+      "type": "standard",
+      "prompt": "地域の課題を住民が話し合って【かいぜん】する。",
+      "answer": "改善",
+      "reading": "かいぜん",
+      "meaning": "よりよい状態に直すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-120",
+      "type": "standard",
+      "prompt": "市役所は住民の暮らしを【ささえる】。",
+      "answer": "支える",
+      "reading": "ささえる",
+      "meaning": "力を貸して助けること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-121",
+      "type": "standard",
+      "prompt": "昔の人々の生活を資料から【そうぞう】する。",
+      "answer": "想像",
+      "reading": "そうぞう",
+      "meaning": "心に思い描くこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-122",
+      "type": "standard",
+      "prompt": "土器や石器から昔の暮らしを【しらべる】。",
+      "answer": "調べる",
+      "reading": "しらべる",
+      "meaning": "詳しく確かめること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-123",
+      "type": "standard",
+      "prompt": "米作りが広まり、むらが【はってん】した。",
+      "answer": "発展",
+      "reading": "はってん",
+      "meaning": "物事が盛んになり進歩すること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-124",
+      "type": "standard",
+      "prompt": "大きな古墳が各地に【つくられた】。",
+      "answer": "作られた",
+      "reading": "つくられた",
+      "meaning": "作るの受け身の形。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-125",
+      "type": "standard",
+      "prompt": "聖徳太子は国の仕組みを【ととのえた】。",
+      "answer": "整えた",
+      "reading": "ととのえた",
+      "meaning": "乱れをなくして形をつくったこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-126",
+      "type": "standard",
+      "prompt": "奈良には大きな寺院が【こんりゅう】された。",
+      "answer": "建立",
+      "reading": "こんりゅう",
+      "meaning": "寺や建物を建てること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-127",
+      "type": "standard",
+      "prompt": "都を京都へ【うつした】。",
+      "answer": "移した",
+      "reading": "うつした",
+      "meaning": "場所を別の所へ変えたこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-128",
+      "type": "standard",
+      "prompt": "武士が政治の中心に【なった】。",
+      "answer": "成った",
+      "reading": "なった",
+      "meaning": "ある状態になること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-129",
+      "type": "standard",
+      "prompt": "鎌倉に幕府が【ひらかれた】。",
+      "answer": "開かれた",
+      "reading": "ひらかれた",
+      "meaning": "新しく始められたこと。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-130",
+      "type": "standard",
+      "prompt": "元との戦いに備えて海岸を【けいび】した。",
+      "answer": "警備",
+      "reading": "けいび",
+      "meaning": "危険に備えて守ること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-131",
+      "type": "standard",
+      "prompt": "室町時代には文化が大きく【さかえた】。",
+      "answer": "栄えた",
+      "reading": "さかえた",
+      "meaning": "盛んになったこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-132",
+      "type": "standard",
+      "prompt": "戦国大名が領地を【おさめた】。",
+      "answer": "治めた",
+      "reading": "おさめた",
+      "meaning": "地域や国を支配したこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-133",
+      "type": "standard",
+      "prompt": "全国統一を目指して戦いを【すすめた】。",
+      "answer": "進めた",
+      "reading": "すすめた",
+      "meaning": "物事を先へ運んだこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-134",
+      "type": "standard",
+      "prompt": "江戸幕府は大名を厳しく【とうせい】した。",
+      "answer": "統制",
+      "reading": "とうせい",
+      "meaning": "全体を決まりに従わせること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-135",
+      "type": "standard",
+      "prompt": "外国との貿易を一部に【せいげん】した。",
+      "answer": "制限",
+      "reading": "せいげん",
+      "meaning": "範囲や数量を決めておさえること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-136",
+      "type": "standard",
+      "prompt": "江戸の町には多くの人が【くらした】。",
+      "answer": "暮らした",
+      "reading": "くらした",
+      "meaning": "生活したこと。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-137",
+      "type": "standard",
+      "prompt": "寺子屋で読み書きやそろばんを【まなんだ】。",
+      "answer": "学んだ",
+      "reading": "まなんだ",
+      "meaning": "知識や技能を身に付けたこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-138",
+      "type": "standard",
+      "prompt": "新しい政府が近代国家を【めざした】。",
+      "answer": "目指した",
+      "reading": "めざした",
+      "meaning": "目標に向かって進んだこと。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-139",
+      "type": "standard",
+      "prompt": "鉄道が各地に【かいつう】した。",
+      "answer": "開通",
+      "reading": "かいつう",
+      "meaning": "道路や鉄道が通じること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-140",
+      "type": "standard",
+      "prompt": "産業が発達して工場が【ふえた】。",
+      "answer": "増えた",
+      "reading": "ふえた",
+      "meaning": "数が多くなったこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-141",
+      "type": "standard",
+      "prompt": "戦争の被害について【まなぶ】。",
+      "answer": "学ぶ",
+      "reading": "まなぶ",
+      "meaning": "知識や考えを身に付けること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-142",
+      "type": "standard",
+      "prompt": "二度と戦争を起こさないと【ちかう】。",
+      "answer": "誓う",
+      "reading": "ちかう",
+      "meaning": "固く約束すること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-143",
+      "type": "standard",
+      "prompt": "平和の大切さを次の世代に【つたえる】。",
+      "answer": "伝える",
+      "reading": "つたえる",
+      "meaning": "知っていることを知らせること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-144",
+      "type": "standard",
+      "prompt": "家族で食卓を【かこむ】。",
+      "answer": "囲む",
+      "reading": "かこむ",
+      "meaning": "周りを取り巻くこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-145",
+      "type": "standard",
+      "prompt": "食事の前に手をよく【あらう】。",
+      "answer": "洗う",
+      "reading": "あらう",
+      "meaning": "水で汚れを落とすこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-146",
+      "type": "standard",
+      "prompt": "栄養のバランスを【かんがえる】。",
+      "answer": "考える",
+      "reading": "かんがえる",
+      "meaning": "よく思いめぐらすこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-147",
+      "type": "standard",
+      "prompt": "食材を必要な大きさに【きる】。",
+      "answer": "切る",
+      "reading": "きる",
+      "meaning": "刃物などで分けること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-148",
+      "type": "standard",
+      "prompt": "火加減を見ながら料理を【あたためる】。",
+      "answer": "温める",
+      "reading": "あたためる",
+      "meaning": "温度を上げること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-149",
+      "type": "standard",
+      "prompt": "料理を皿に美しく【もりつける】。",
+      "answer": "盛り付ける",
+      "reading": "もりつける",
+      "meaning": "料理を器に整えて入れること。",
+      "answerLength": 5,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-150",
+      "type": "standard",
+      "prompt": "使った食器を棚に【しまう】。",
+      "answer": "仕舞う",
+      "reading": "しまう",
+      "meaning": "決まった場所に片付けること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-151",
+      "type": "standard",
+      "prompt": "部屋の窓を開けて空気を【いれかえる】。",
+      "answer": "入れ替える",
+      "reading": "いれかえる",
+      "meaning": "中のものを別のものに替えること。",
+      "answerLength": 5,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-152",
+      "type": "standard",
+      "prompt": "机の上をきれいに【かたづける】。",
+      "answer": "片付ける",
+      "reading": "かたづける",
+      "meaning": "物を整理して整えること。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-153",
+      "type": "standard",
+      "prompt": "洗濯物を日に当てて【かわかす】。",
+      "answer": "乾かす",
+      "reading": "かわかす",
+      "meaning": "水分をなくすこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-154",
+      "type": "standard",
+      "prompt": "家族で家事を【ぶんたん】する。",
+      "answer": "分担",
+      "reading": "ぶんたん",
+      "meaning": "仕事を分けて受け持つこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-155",
+      "type": "standard",
+      "prompt": "早寝早起きの習慣を【みにつける】。",
+      "answer": "身に付ける",
+      "reading": "みにつける",
+      "meaning": "習慣や技能を自分のものにすること。",
+      "answerLength": 5,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-156",
+      "type": "standard",
+      "prompt": "毎朝、決まった時刻に【おきる】。",
+      "answer": "起きる",
+      "reading": "おきる",
+      "meaning": "眠りから覚めること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-157",
+      "type": "standard",
+      "prompt": "夜は十分な睡眠を【とる】。",
+      "answer": "取る",
+      "reading": "とる",
+      "meaning": "必要なものを得ること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-158",
+      "type": "standard",
+      "prompt": "体調が悪いときは無理をせず【やすむ】。",
+      "answer": "休む",
+      "reading": "やすむ",
+      "meaning": "活動を止めて体を休めること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-159",
+      "type": "standard",
+      "prompt": "運動前に体をよく【ほぐす】。",
+      "answer": "解す",
+      "reading": "ほぐす",
+      "meaning": "固さや緊張をやわらげること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-160",
+      "type": "standard",
+      "prompt": "校庭を力いっぱい【はしる】。",
+      "answer": "走る",
+      "reading": "はしる",
+      "meaning": "足を速く動かして進むこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-161",
+      "type": "standard",
+      "prompt": "目標に向かってボールを【なげる】。",
+      "answer": "投げる",
+      "reading": "なげる",
+      "meaning": "手から物を放って飛ばすこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-162",
+      "type": "standard",
+      "prompt": "鉄棒にしっかり【つかまる】。",
+      "answer": "捕まる",
+      "reading": "つかまる",
+      "meaning": "手でしっかり取って離れないこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-163",
+      "type": "standard",
+      "prompt": "水泳で長い距離を【およぐ】。",
+      "answer": "泳ぐ",
+      "reading": "およぐ",
+      "meaning": "水の中を進むこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-164",
+      "type": "standard",
+      "prompt": "チームで作戦を【たてる】。",
+      "answer": "立てる",
+      "reading": "たてる",
+      "meaning": "計画などを作ること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-165",
+      "type": "standard",
+      "prompt": "試合で最後まで全力を【つくす】。",
+      "answer": "尽くす",
+      "reading": "つくす",
+      "meaning": "持っている力をすべて出すこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-166",
+      "type": "standard",
+      "prompt": "勝っても相手への礼儀を【わすれない】。",
+      "answer": "忘れない",
+      "reading": "わすれない",
+      "meaning": "記憶や心からなくさないこと。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-167",
+      "type": "standard",
+      "prompt": "負けた悔しさを次の練習に【いかす】。",
+      "answer": "生かす",
+      "reading": "いかす",
+      "meaning": "経験などを役立てること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-168",
+      "type": "standard",
+      "prompt": "美しい景色を絵に【えがく】。",
+      "answer": "描く",
+      "reading": "えがく",
+      "meaning": "絵や図として表すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-169",
+      "type": "standard",
+      "prompt": "色を混ぜて新しい色を【つくる】。",
+      "answer": "作る",
+      "reading": "つくる",
+      "meaning": "材料を使って形にすること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-170",
+      "type": "standard",
+      "prompt": "木材を組み合わせて作品を【せいさく】する。",
+      "answer": "製作",
+      "reading": "せいさく",
+      "meaning": "道具や材料を使って物を作ること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-171",
+      "type": "standard",
+      "prompt": "楽譜を見ながら曲を【えんそう】する。",
+      "answer": "演奏",
+      "reading": "えんそう",
+      "meaning": "楽器で音楽を奏でること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-172",
+      "type": "standard",
+      "prompt": "歌詞の意味を考えて【うたう】。",
+      "answer": "歌う",
+      "reading": "うたう",
+      "meaning": "声で節を付けて表すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-173",
+      "type": "standard",
+      "prompt": "合唱で声を一つに【そろえる】。",
+      "answer": "揃える",
+      "reading": "そろえる",
+      "meaning": "ばらばらなものを同じにすること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-174",
+      "type": "standard",
+      "prompt": "劇で登場人物の役を【えんじる】。",
+      "answer": "演じる",
+      "reading": "えんじる",
+      "meaning": "役になって表現すること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-175",
+      "type": "standard",
+      "prompt": "観客の前で堂々と【えんぎ】する。",
+      "answer": "演技",
+      "reading": "えんぎ",
+      "meaning": "役や動きを表現すること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-176",
+      "type": "standard",
+      "prompt": "伝統的な行事を地域で【うけつぐ】。",
+      "answer": "受け継ぐ",
+      "reading": "うけつぐ",
+      "meaning": "前の人から受け取って続けること。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-177",
+      "type": "standard",
+      "prompt": "昔から伝わる文化を大切に【ほぞん】する。",
+      "answer": "保存",
+      "reading": "ほぞん",
+      "meaning": "よい状態で残しておくこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-178",
+      "type": "standard",
+      "prompt": "祭りには地域の願いが【こめられて】いる。",
+      "answer": "込められて",
+      "reading": "こめられて",
+      "meaning": "思いや願いが入れられていること。",
+      "answerLength": 5,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-179",
+      "type": "standard",
+      "prompt": "神社の歴史を案内板で【しる】。",
+      "answer": "知る",
+      "reading": "しる",
+      "meaning": "知識を得ること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-std-180",
+      "type": "standard",
+      "prompt": "旅行の思い出を写真に【のこす】。",
+      "answer": "残す",
+      "reading": "のこす",
+      "meaning": "なくならないようにとどめること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "通常書き取り",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "basic",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-001",
+      "type": "homophone",
+      "prompt": "試合の開始を【まつ】。",
+      "answer": "待つ",
+      "reading": "まつ",
+      "meaning": "時間が来るまでその場にいること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-002",
+      "type": "homophone",
+      "prompt": "松の木が海岸に【はえる】。",
+      "answer": "生える",
+      "reading": "はえる",
+      "meaning": "植物などが出て育つこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-003",
+      "type": "homophone",
+      "prompt": "庭に花を【うえる】。",
+      "answer": "植える",
+      "reading": "うえる",
+      "meaning": "植物を土に入れて育てること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-004",
+      "type": "homophone",
+      "prompt": "大切な考えを次の世代に【つたえる】。",
+      "answer": "伝える",
+      "reading": "つたえる",
+      "meaning": "情報や気持ちを知らせること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-005",
+      "type": "homophone",
+      "prompt": "重い荷物を車に【のせる】。",
+      "answer": "載せる",
+      "reading": "のせる",
+      "meaning": "物の上に置いたり積んだりすること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-006",
+      "type": "homophone",
+      "prompt": "友達を車に【のせる】。",
+      "answer": "乗せる",
+      "reading": "のせる",
+      "meaning": "乗り物に乗るようにすること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-007",
+      "type": "homophone",
+      "prompt": "本を机の上に【おく】。",
+      "answer": "置く",
+      "reading": "おく",
+      "meaning": "ある場所に物をとどめること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-008",
+      "type": "homophone",
+      "prompt": "祖父母に手紙を【おくる】。",
+      "answer": "送る",
+      "reading": "おくる",
+      "meaning": "相手の所へ届けること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-009",
+      "type": "homophone",
+      "prompt": "誕生日に品物を【おくる】。",
+      "answer": "贈る",
+      "reading": "おくる",
+      "meaning": "気持ちを込めて人に与えること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-010",
+      "type": "homophone",
+      "prompt": "雨で運動会を【のばす】。",
+      "answer": "延ばす",
+      "reading": "のばす",
+      "meaning": "期日や時間を後へずらすこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-011",
+      "type": "homophone",
+      "prompt": "ゴムを引いて長く【のばす】。",
+      "answer": "伸ばす",
+      "reading": "のばす",
+      "meaning": "長さや能力を大きくすること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-012",
+      "type": "homophone",
+      "prompt": "道の角を右に【まがる】。",
+      "answer": "曲がる",
+      "reading": "まがる",
+      "meaning": "方向が変わること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-013",
+      "type": "homophone",
+      "prompt": "先生に質問を【たずねる】。",
+      "answer": "尋ねる",
+      "reading": "たずねる",
+      "meaning": "分からないことを聞くこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-014",
+      "type": "homophone",
+      "prompt": "友達の家を【たずねる】。",
+      "answer": "訪ねる",
+      "reading": "たずねる",
+      "meaning": "人や場所を訪問すること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-015",
+      "type": "homophone",
+      "prompt": "荷物の重さを【はかる】。",
+      "answer": "量る",
+      "reading": "はかる",
+      "meaning": "重さや容積を調べること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-016",
+      "type": "homophone",
+      "prompt": "運動場の長さを【はかる】。",
+      "answer": "測る",
+      "reading": "はかる",
+      "meaning": "長さや高さなどを器具で調べること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-017",
+      "type": "homophone",
+      "prompt": "作業にかかる時間を【はかる】。",
+      "answer": "計る",
+      "reading": "はかる",
+      "meaning": "時間や数などを数えること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-018",
+      "type": "homophone",
+      "prompt": "代表として式に【でる】。",
+      "answer": "出る",
+      "reading": "でる",
+      "meaning": "ある場所から外へ行く、参加すること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-019",
+      "type": "homophone",
+      "prompt": "太陽が東から【でる】。",
+      "answer": "出る",
+      "reading": "でる",
+      "meaning": "姿を現すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-020",
+      "type": "homophone",
+      "prompt": "友達と意見を【あわせる】。",
+      "answer": "合わせる",
+      "reading": "あわせる",
+      "meaning": "複数のものを一つにそろえること。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-021",
+      "type": "homophone",
+      "prompt": "二つの数を【たす】。",
+      "answer": "足す",
+      "reading": "たす",
+      "meaning": "数量を加えること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-022",
+      "type": "homophone",
+      "prompt": "困っている人を【たすける】。",
+      "answer": "助ける",
+      "reading": "たすける",
+      "meaning": "力を貸して救うこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-023",
+      "type": "homophone",
+      "prompt": "席を立って場所を【あける】。",
+      "answer": "空ける",
+      "reading": "あける",
+      "meaning": "場所を使わない状態にすること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-024",
+      "type": "homophone",
+      "prompt": "教室の窓を【あける】。",
+      "answer": "開ける",
+      "reading": "あける",
+      "meaning": "閉じていたものを開くこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-025",
+      "type": "homophone",
+      "prompt": "新しい店を【ひらく】。",
+      "answer": "開く",
+      "reading": "ひらく",
+      "meaning": "営業や会を始めること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-026",
+      "type": "homophone",
+      "prompt": "手紙の封を【きる】。",
+      "answer": "切る",
+      "reading": "きる",
+      "meaning": "つながったものを分けること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-027",
+      "type": "homophone",
+      "prompt": "約束を固く【まもる】。",
+      "answer": "守る",
+      "reading": "まもる",
+      "meaning": "決まりに従うこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-028",
+      "type": "homophone",
+      "prompt": "雨から荷物を【まもる】。",
+      "answer": "護る",
+      "reading": "まもる",
+      "meaning": "危険や害から保護すること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-029",
+      "type": "homophone",
+      "prompt": "先生の話を【きく】。",
+      "answer": "聞く",
+      "reading": "きく",
+      "meaning": "耳で音や話を受け取ること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-hom-030",
+      "type": "homophone",
+      "prompt": "薬の効き目がよく【きく】。",
+      "answer": "効く",
+      "reading": "きく",
+      "meaning": "効果が現れること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tags": [
+        "同音異義語・同訓異字",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-001",
+      "type": "idiom",
+      "prompt": "何度失敗しても【しちてんはっき】の気持ちで挑む。",
+      "answer": "七転八起",
+      "reading": "しちてんはっき",
+      "meaning": "何度失敗しても立ち上がること。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-002",
+      "type": "idiom",
+      "prompt": "みんなが【いっちだんけつ】して大会に臨む。",
+      "answer": "一致団結",
+      "reading": "いっちだんけつ",
+      "meaning": "心を一つにして力を合わせること。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-003",
+      "type": "idiom",
+      "prompt": "計画を【ゆうげんじっこう】に移す。",
+      "answer": "有言実行",
+      "reading": "ゆうげんじっこう",
+      "meaning": "言ったことを責任をもって実行すること。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-004",
+      "type": "idiom",
+      "prompt": "新しい発想で【そういくふう】を重ねる。",
+      "answer": "創意工夫",
+      "reading": "そういくふう",
+      "meaning": "新しい考えを出し、方法を工夫すること。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-005",
+      "type": "idiom",
+      "prompt": "目標に向かって【いっしょうけんめい】努力する。",
+      "answer": "一生懸命",
+      "reading": "いっしょうけんめい",
+      "meaning": "力の限り真剣に取り組むこと。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-006",
+      "type": "idiom",
+      "prompt": "発表前でも【れいせいちんちゃく】に行動する。",
+      "answer": "冷静沈着",
+      "reading": "れいせいちんちゃく",
+      "meaning": "落ち着いて物事に対処すること。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-007",
+      "type": "idiom",
+      "prompt": "困ったときは【りんきおうへん】に対応する。",
+      "answer": "臨機応変",
+      "reading": "りんきおうへん",
+      "meaning": "その場に応じて適切に対応すること。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-008",
+      "type": "idiom",
+      "prompt": "新しい学校生活に【しんきいってん】して臨む。",
+      "answer": "心機一転",
+      "reading": "しんきいってん",
+      "meaning": "気持ちを切り替えて新しく始めること。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-009",
+      "type": "idiom",
+      "prompt": "彼は【こうめいせいだい】な態度で試合に臨んだ。",
+      "answer": "公明正大",
+      "reading": "こうめいせいだい",
+      "meaning": "公平で正しく、隠し事がないこと。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-010",
+      "type": "idiom",
+      "prompt": "話し合いを【わきあいあい】と進める。",
+      "answer": "和気藹々",
+      "reading": "わきあいあい",
+      "meaning": "なごやかで仲のよい様子。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-011",
+      "type": "idiom",
+      "prompt": "最後まで【しょしかんてつ】してやり遂げる。",
+      "answer": "初志貫徹",
+      "reading": "しょしかんてつ",
+      "meaning": "最初に決めた志を最後まで貫くこと。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-012",
+      "type": "idiom",
+      "prompt": "学んだことを【おんこちしん】の心で見直す。",
+      "answer": "温故知新",
+      "reading": "おんこちしん",
+      "meaning": "昔を学び、そこから新しい知識を得ること。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-013",
+      "type": "idiom",
+      "prompt": "二人は【いしんでんしん】で考えが通じた。",
+      "answer": "以心伝心",
+      "reading": "いしんでんしん",
+      "meaning": "言葉にしなくても心が通じること。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-014",
+      "type": "idiom",
+      "prompt": "本番に向けて互いに【せっさたくま】する。",
+      "answer": "切磋琢磨",
+      "reading": "せっさたくま",
+      "meaning": "互いに励まし合って向上すること。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-015",
+      "type": "idiom",
+      "prompt": "危険が目前に迫る【ききいっぱつ】の場面だった。",
+      "answer": "危機一髪",
+      "reading": "ききいっぱつ",
+      "meaning": "非常に危険が迫っていること。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-016",
+      "type": "idiom",
+      "prompt": "必要な情報を【しゅしゃせんたく】する。",
+      "answer": "取捨選択",
+      "reading": "しゅしゃせんたく",
+      "meaning": "必要なものを取り、不要なものを捨てること。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-017",
+      "type": "idiom",
+      "prompt": "話の内容が【しりめつれつ】にならないよう整理する。",
+      "answer": "支離滅裂",
+      "reading": "しりめつれつ",
+      "meaning": "筋道がばらばらでまとまりがないこと。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-018",
+      "type": "idiom",
+      "prompt": "地域の人と【いしそつう】を図る。",
+      "answer": "意思疎通",
+      "reading": "いしそつう",
+      "meaning": "考えや気持ちを互いに伝え合うこと。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-019",
+      "type": "idiom",
+      "prompt": "旅行先で【せんざいいちぐう】の機会を得た。",
+      "answer": "千載一遇",
+      "reading": "せんざいいちぐう",
+      "meaning": "めったにない非常によい機会。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-020",
+      "type": "idiom",
+      "prompt": "朝から夜まで【とうほんせいそう】に働く。",
+      "answer": "東奔西走",
+      "reading": "とうほんせいそう",
+      "meaning": "あちこち忙しく走り回ること。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-021",
+      "type": "idiom",
+      "prompt": "問題の答えが分かり【いきようよう】と発表する。",
+      "answer": "意気揚々",
+      "reading": "いきようよう",
+      "meaning": "得意で元気いっぱいな様子。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-022",
+      "type": "idiom",
+      "prompt": "学習と運動を【ぶんぶりょうどう】でがんばる。",
+      "answer": "文武両道",
+      "reading": "ぶんぶりょうどう",
+      "meaning": "学問と武道・運動の両方に励むこと。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-023",
+      "type": "idiom",
+      "prompt": "祖父は今も【げんきはつらつ】としている。",
+      "answer": "元気溌剌",
+      "reading": "げんきはつらつ",
+      "meaning": "元気があふれて生き生きしている様子。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-024",
+      "type": "idiom",
+      "prompt": "考えを一つにして【いっしんどうたい】で行動する。",
+      "answer": "一心同体",
+      "reading": "いっしんどうたい",
+      "meaning": "複数の人が心を一つにして行動すること。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-025",
+      "type": "idiom",
+      "prompt": "広い自然の中で【しんらばんしょう】を観察する。",
+      "answer": "森羅万象",
+      "reading": "しんらばんしょう",
+      "meaning": "宇宙に存在するすべてのものや現象。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-026",
+      "type": "idiom",
+      "prompt": "自分の目で確かめる【ひゃくぶんはいっけん】の考えを大切にする。",
+      "answer": "百聞一見",
+      "reading": "ひゃくぶんはいっけん",
+      "meaning": "何度も聞くより一度実際に見る方がよく分かること。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-027",
+      "type": "idiom",
+      "prompt": "話し合いで【たしゅたよう】な意見を認める。",
+      "answer": "多種多様",
+      "reading": "たしゅたよう",
+      "meaning": "種類や様子がさまざまであること。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-028",
+      "type": "idiom",
+      "prompt": "会場には【ろうにゃくなんにょ】が集まった。",
+      "answer": "老若男女",
+      "reading": "ろうにゃくなんにょ",
+      "meaning": "年齢や性別に関係なく、あらゆる人。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-029",
+      "type": "idiom",
+      "prompt": "調査結果を【いちもくりょうぜん】に表す。",
+      "answer": "一目瞭然",
+      "reading": "いちもくりょうぜん",
+      "meaning": "一目見ただけではっきり分かること。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    },
+    {
+      "id": "elem-idiom-030",
+      "type": "idiom",
+      "prompt": "困難な課題にも【ふとうふくつ】の精神で挑む。",
+      "answer": "不撓不屈",
+      "reading": "ふとうふくつ",
+      "meaning": "どんな困難にもくじけないこと。",
+      "answerLength": 4,
+      "grades": [
+        5,
+        6
+      ],
+      "tags": [
+        "四字熟語",
+        "小1〜小6総復習"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "advanced",
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "rewards": [
+    {"id":"reward01","file":"images/reward01.jpeg","title":"10問達成"},
+    {"id":"reward02","file":"images/reward02.jpeg","title":"よくできました"},
+    {"id":"reward03","file":"images/reward03.jpeg","title":"ごほうび"},
+    {"id":"reward04","file":"images/reward04.jpeg","title":"ごほうび"},
+    {"id":"reward05","file":"images/reward05.jpeg","title":"ごほうび"},
+    {"id":"reward06","file":"images/reward06.jpeg","title":"ごほうび"},
+    {"id":"reward07","file":"images/reward07.jpeg","title":"ごほうび"},
+    {"id":"reward08","file":"images/reward08.jpeg","title":"ごほうび"},
+    {"id":"reward09","file":"images/reward09.jpeg","title":"ごほうび"},
+    {"id":"reward10","file":"images/reward10.jpeg","title":"ごほうび"}
+  ]
+}
