@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#2f4058">
+<title>小学1〜6年 漢字総復習</title>
+<style>
+:root{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;color:#20242b;background:#f3f5f7}*{box-sizing:border-box}html,body,#app{min-height:100%;overscroll-behavior:none}body{margin:0;min-width:320px;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;touch-action:manipulation}main{max-width:940px;margin:auto;padding:8px 18px calc(110px + env(safe-area-inset-bottom))}.card{background:#fff;border-radius:22px;padding:20px;margin:8px 0 12px;box-shadow:0 8px 28px #17203314}h1{text-align:center}button,.fileLabel{font:inherit;-webkit-user-select:none;user-select:none;min-height:48px;padding:12px 16px;border:1px solid #c9d0da;border-radius:14px;background:#fff;cursor:pointer}.primary{background:#2f4058;color:#fff;border:none;font-weight:700}.danger{color:#9d2626;border-color:#e4b8b8}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.stack{display:grid;gap:12px;max-width:520px;margin:20px auto}.big{font-size:2.4rem;font-weight:700}.header{display:flex;justify-content:flex-end;align-items:center;min-height:34px;padding:2px 2px 0}.exitRow{display:flex;justify-content:flex-start;margin:12px 0 calc(24px + env(safe-area-inset-bottom))}.exitRow button{min-width:110px}.kind{color:#667085;font-weight:700}.answer{background:#eef1f5;border-radius:16px;padding:14px;text-align:center;margin:16px 0}.answer strong{font-size:2.3rem;letter-spacing:.18em}.canvasBox{position:relative;margin:12px 0 8px}.canvas{width:100%;height:min(42vw,330px);display:block;background:#fff;border:2px solid #8993a3;border-radius:14px;touch-action:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}.actions{display:flex;justify-content:flex-end;gap:10px;margin-top:10px}.ratings{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:12px 0 8px}.ratings button{font-size:1.8rem;font-weight:700}.ratings small{display:block;font-size:.78rem;font-weight:400}.rewardImg{max-width:100%;max-height:58vh;display:block;margin:16px auto;border-radius:18px}.thumbs{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:12px}.thumbs img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:12px}.muted{color:#667085}.notice{background:#fff6cf;border-radius:12px;padding:10px}.fileLabel{display:inline-block;background:#2f4058;color:#fff}.fileLabel input{display:none}@media(max-width:600px){main{padding:4px 12px calc(120px + env(safe-area-inset-bottom))}.grid{grid-template-columns:1fr}.header{min-height:28px}.card{padding:18px 16px;margin-top:4px}.canvas{height:58vw}.ratings button{padding:8px 6px}.answer strong{font-size:1.9rem}.exitRow{margin-top:10px;margin-bottom:calc(34px + env(safe-area-inset-bottom))}}
+</style>
+</head>
+<body><div id="app"></div>
+<script>
+const APP_KEY='elementaryKanjiReview.v1';
+const INTERVALS={1:1,2:3,3:7,4:14,5:30,6:60,7:90};
+let questions=[], rewards=[];
+let state=loadState();
+let screen='home', mode='round', queue=[], index=0, answerShown=false, scores={circle:0,triangle:0,cross:0}, sessionStart=0, lastReward=null;
+function loadState(){
+  let loaded;
+  try{loaded=JSON.parse(localStorage.getItem(APP_KEY))}catch{}
+  const base=loaded||{progress:{},sessions:[],rewardHistory:[]};
+  base.progress=base.progress||{};base.sessions=base.sessions||[];base.rewardHistory=base.rewardHistory||[];
+  // v1.5 migration: already-attempted questions count as seen in the first round.
+  if(!base.round)base.round={number:1,seen:Object.keys(base.progress)};
+  base.round.number=Math.max(1,Number(base.round.number)||1);
+  base.round.seen=Array.isArray(base.round.seen)?base.round.seen:[];
+  return base;
+}
+function save(){localStorage.setItem(APP_KEY,JSON.stringify(state))}
+function today(){return new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Tokyo'}).format(new Date())}
+function addDays(days){const d=new Date();d.setDate(d.getDate()+days);return new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Tokyo'}).format(d)}
+function shuffle(a){return [...a].sort(()=>Math.random()-.5)}
+function due(){return questions.filter(q=>{const p=state.progress[q.id];return p&&p.nextReviewDate&&p.nextReviewDate<=today()}).sort((a,b)=>state.progress[a.id].nextReviewDate.localeCompare(state.progress[b.id].nextReviewDate))}
+function ensureRound(){
+  state.round=state.round||{number:1,seen:[]};
+  state.round.seen=Array.isArray(state.round.seen)?state.round.seen:[];
+  const valid=new Set(questions.map(q=>q.id));
+  state.round.seen=[...new Set(state.round.seen.filter(id=>valid.has(id)))];
+  if(questions.length&&state.round.seen.length>=questions.length){state.round.number++;state.round.seen=[];save()}
+}
+function roundRemaining(){ensureRound();const seen=new Set(state.round.seen);return shuffle(questions.filter(q=>!seen.has(q.id)))}
+function weak(){return questions.filter(q=>['triangle','cross'].includes(state.progress[q.id]?.lastRating))}
+function typeLabel(t){return t==='standard'?'通常書き取り':t==='homophone'?'同音異義語':'四字熟語'}
+function ratingSymbol(r){return r==='circle'?'○':r==='triangle'?'△':'×'}
+function updateWeak(p){return p.lastRating==='triangle'||p.lastRating==='cross'}
+function applyRating(q,r){const p=state.progress[q.id]||{questionId:q.id,currentStage:0,circleCount:0,triangleCount:0,crossCount:0,history:[]};const isNew=p.currentStage===0;let stage=p.currentStage||1;if(isNew){stage=r==='circle'?2:1}else if(r==='circle'){stage=Math.min(7,stage+1)}else if(r==='triangle'){stage=Math.max(1,stage-1)}else{stage=1}p.currentStage=stage;p.nextReviewDate=addDays(INTERVALS[stage]);p.lastRating=r;p[r+'Count']=(p[r+'Count']||0)+1;p.lastStudiedAt=new Date().toISOString();p.history=[...(p.history||[]),r].slice(-20);p.isWeak=updateWeak(p);state.progress[q.id]=p;if(mode==='round'){ensureRound();if(!state.round.seen.includes(q.id))state.round.seen.push(q.id);if(questions.length&&state.round.seen.length>=questions.length){state.round.number++;state.round.seen=[]}}save()}
+function startCount(m){mode=m;screen='count';render()}
+function startStudy(count){strokes=[];current=null;let base=mode==='round'?roundRemaining():shuffle(questions);queue=base.slice(0,count);if(!queue.length){alert('出題できる問題がありません。');return}index=0;answerShown=false;scores={circle:0,triangle:0,cross:0};sessionStart=Date.now();lastReward=null;screen='study';render()}
+function rate(r){const q=queue[index];applyRating(q,r);scores[r]++;const completed=index+1;if(completed%10===0&&rewards.length){const pool=rewards.length>1?rewards.filter(x=>x.id!==state.rewardHistory.at(-1)):rewards;lastReward=pool[Math.floor(Math.random()*pool.length)]||rewards[0];state.rewardHistory.push(lastReward.id);state.rewardHistory=state.rewardHistory.slice(-50);save();screen='reward';render();return}advance()}
+function advance(){strokes=[];current=null;if(index+1>=queue.length){state.sessions.push({mode,count:queue.length,scores,at:new Date().toISOString()});state.sessions=state.sessions.slice(-500);save();screen='result'}else{index++;answerShown=false;screen='study'}render()}
+function home(){screen='home';render()}
+function el(html){document.getElementById('app').innerHTML=html}
+function render(){if(screen==='home')return renderHome();if(screen==='count')return renderCount();if(screen==='study')return renderStudy();if(screen==='reward')return renderReward();if(screen==='result')return renderResult();if(screen==='weak')return renderWeak();if(screen==='stats')return renderStats();if(screen==='settings')return renderSettings();}
+function renderHome(){ensureRound();el(`<main><h1>小学1〜6年 漢字総復習</h1><section class="card"><h2>周回出題</h2><p class="big">${state.round.number}周目</p><p>${state.round.seen.length} / ${questions.length}問</p><button class="primary" onclick="startCount('round')">周回出題を始める</button></section><div class="grid"><button onclick="startCount('random')">ランダム出題</button><button onclick="screen='weak';render()">苦手一覧（${weak().length}）</button><button onclick="screen='stats';render()">成績</button><button onclick="screen='settings';render()">設定</button></div></main>`)}
+function renderCount(){const remaining=mode==='round'?roundRemaining().length:questions.length;el(`<main><button onclick="home()">← ホーム</button><h1>何問取り組みますか？</h1>${mode==='round'?`<p class="muted" style="text-align:center">${state.round.number}周目・残り${remaining}問</p>`:''}<div class="stack"><button onclick="startStudy(10)">10問</button><button onclick="startStudy(20)">20問</button><button onclick="startStudy(30)">30問</button></div></main>`)}
+function renderStudy(){const q=queue[index];el(`<main><div class="header"><span>${index+1} / ${queue.length}</span></div><section class="card"><p class="kind">${typeLabel(q.type)}</p><h2>${q.prompt}</h2>${answerShown?`<div class="answer"><strong>${q.answer}</strong><p>${q.meaning||''}</p></div>`:''}<div class="canvasBox"><canvas id="canvas" class="canvas"></canvas><div class="actions"><button onclick="undoStroke()">一つ戻す</button><button onclick="clearCanvas()">全消去</button></div></div>${answerShown?`<div class="ratings"><button onclick="rate('circle')">○<small>できた</small></button><button onclick="rate('triangle')">△<small>迷った</small></button><button onclick="rate('cross')">×<small>書けなかった</small></button></div>`:`<button class="primary" onclick="answerShown=true;render()">解答を見る</button>`}</section><div class="exitRow"><button onclick="confirm('学習を終了しますか？')&&home()">← 終了</button></div></main>`);setupCanvas(q.answerLength)}
+let strokes=[],current=null,ctx,canvas,activePointerId=null,lastPoint=null;
+function setupCanvas(cells){
+  canvas=document.getElementById('canvas');
+  const rect=canvas.getBoundingClientRect(),dpr=devicePixelRatio||1;
+  canvas.width=Math.max(1,Math.round(rect.width*dpr));
+  canvas.height=Math.max(1,Math.round(rect.height*dpr));
+  ctx=canvas.getContext('2d',{alpha:true,desynchronized:true});
+  ctx.setTransform(dpr,0,0,dpr,0,0);
+  configurePen();
+  canvas.dataset.cells=cells;
+  drawAll(cells);
+
+  let lastPointerActivity=0;
+  let usingPointerEvents='PointerEvent' in window;
+
+  function configurePen(){
+    ctx.strokeStyle='#1f2937';
+    ctx.fillStyle='#1f2937';
+    ctx.lineWidth=4;
+    ctx.lineCap='round';
+    ctx.lineJoin='round';
+  }
+  function pos(e){
+    const r=canvas.getBoundingClientRect();
+    return{x:e.clientX-r.left,y:e.clientY-r.top};
+  }
+  function inCanvas(p){
+    const r=canvas.getBoundingClientRect();
+    return p.x>=-12&&p.y>=-12&&p.x<=r.width+12&&p.y<=r.height+12;
+  }
+  function drawDot(p){
+    configurePen();
+    ctx.beginPath();ctx.arc(p.x,p.y,2,0,Math.PI*2);ctx.fill();
+  }
+  function drawSegment(a,b){
+    configurePen();
+    ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();
+  }
+  function eventBatch(e){
+    if(typeof e.getCoalescedEvents==='function'){
+      const batch=e.getCoalescedEvents();
+      if(batch&&batch.length)return batch;
+    }
+    return[e];
+  }
+  function appendEvent(e){
+    if(!current)return;
+    for(const ev of eventBatch(e)){
+      const p=pos(ev);
+      if(!inCanvas(p))continue;
+      if(!lastPoint){current.push(p);lastPoint=p;drawDot(p);continue}
+      if(Math.abs(p.x-lastPoint.x)<0.05&&Math.abs(p.y-lastPoint.y)<0.05)continue;
+      current.push(p);drawSegment(lastPoint,p);lastPoint=p;
+    }
+  }
+  function releaseCapture(){
+    if(activePointerId===null)return;
+    try{if(canvas.hasPointerCapture(activePointerId))canvas.releasePointerCapture(activePointerId)}catch{}
+  }
+  function resetActive(){
+    releaseCapture();
+    activePointerId=null;current=null;lastPoint=null;
+  }
+  function beginStroke(e){
+    // iPad Safari can leave the previous pointer active when pointerup/cancel is missed.
+    // A fresh pen contact always wins and forcibly starts a new stroke.
+    resetActive();
+    activePointerId=e.pointerId;
+    current=[];lastPoint=null;strokes.push(current);
+    // Pointer capture is useful for mouse/touch, but can be unreliable for Apple Pencil on iPad Safari.
+    if(e.pointerType!=='pen'){
+      try{canvas.setPointerCapture(e.pointerId)}catch{}
+    }
+    appendEvent(e);
+  }
+  function finish(e){
+    if(activePointerId===null||!current)return;
+    if(e&&e.pointerId!==undefined&&e.pointerId!==activePointerId)return;
+    if(e&&e.type==='pointerup')appendEvent(e);
+    resetActive();
+  }
+  function penIsDown(e){
+    return e.pointerType==='pen'&&(e.pressure>0||e.buttons!==0);
+  }
+  function handleMove(e){
+    lastPointerActivity=performance.now();
+    // Rescue missed pointerdown events: if the Pencil is clearly touching the screen,
+    // start a stroke from this move event instead of silently ignoring it.
+    if((activePointerId===null||!current)&&penIsDown(e))beginStroke(e);
+    if(e.pointerId!==activePointerId||!current)return;
+    e.preventDefault();appendEvent(e);
+  }
+
+  canvas.oncontextmenu=e=>e.preventDefault();
+  canvas.ondragstart=e=>e.preventDefault();
+  canvas.onselectstart=e=>e.preventDefault();
+
+  // iPad/Safari may report Apple Pencil through Pointer Events, Touch Events,
+  // or both. Listen to both paths and deduplicate the same physical contact.
+  let activeSource=null; // 'pointer' | 'touch'
+  let lastStart={time:-Infinity,x:0,y:0,source:null};
+  const near=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y)<12;
+  const eventPoint=e=>({x:e.clientX,y:e.clientY});
+  function duplicateStart(source,e){
+    const now=performance.now(),p=eventPoint(e);
+    const duplicate=source!==lastStart.source&&now-lastStart.time<120&&near(p,lastStart);
+    if(!duplicate)lastStart={time:now,x:p.x,y:p.y,source};
+    return duplicate;
+  }
+
+  if(usingPointerEvents){
+    canvas.addEventListener('pointerdown',e=>{
+      lastPointerActivity=performance.now();
+      e.preventDefault();
+      if(duplicateStart('pointer',e))return;
+      activeSource='pointer';
+      beginStroke(e);
+    },{passive:false});
+    canvas.addEventListener('pointermove',e=>{
+      if(activeSource==='touch')return;
+      handleMove(e);
+    },{passive:false});
+    canvas.addEventListener('pointerrawupdate',e=>{
+      if(activeSource==='touch')return;
+      handleMove(e);
+    },{passive:false});
+    canvas.addEventListener('pointerup',e=>{
+      if(activeSource!=='pointer')return;
+      e.preventDefault();finish(e);activeSource=null;
+    },{passive:false});
+    const endPointer=e=>{
+      if(activeSource!=='pointer')return;
+      finish(e);activeSource=null;
+    };
+    canvas.addEventListener('pointercancel',endPointer,{passive:false});
+    canvas.addEventListener('lostpointercapture',endPointer,{passive:false});
+    document.addEventListener('pointerup',endPointer,{passive:true});
+    document.addEventListener('pointercancel',endPointer,{passive:true});
+  }
+
+  // Keep Touch Events enabled even when Pointer Events exist. On iPad this
+  // gives Apple Pencil a second input route when Safari drops a pen pointer.
+  let touchId=null;
+  const stylusType=t=>t.touchType==='stylus'?'pen':'touch';
+  const findTouch=(list,id)=>Array.from(list||[]).find(t=>t.identifier===id);
+  canvas.addEventListener('touchstart',e=>{
+    const t=e.changedTouches&&e.changedTouches[0];if(!t)return;
+    e.preventDefault();
+    const synthetic={pointerId:`touch-${t.identifier}`,pointerType:stylusType(t),pressure:t.force||1,buttons:1,clientX:t.clientX,clientY:t.clientY,getCoalescedEvents:null};
+    if(duplicateStart('touch',synthetic))return;
+    activeSource='touch';touchId=t.identifier;
+    beginStroke(synthetic);
+  },{passive:false});
+  canvas.addEventListener('touchmove',e=>{
+    if(activeSource!=='touch'||touchId===null)return;
+    const t=findTouch(e.changedTouches,touchId)||findTouch(e.touches,touchId);if(!t)return;
+    e.preventDefault();
+    handleMove({pointerId:`touch-${touchId}`,pointerType:stylusType(t),pressure:t.force||1,buttons:1,clientX:t.clientX,clientY:t.clientY,preventDefault(){}});
+  },{passive:false});
+  const endTouch=e=>{
+    if(activeSource!=='touch'||touchId===null)return;
+    const t=findTouch(e.changedTouches,touchId);
+    if(!t&&e.type==='touchend')return;
+    e.preventDefault();
+    finish({pointerId:`touch-${touchId}`});
+    touchId=null;activeSource=null;
+  };
+  canvas.addEventListener('touchend',endTouch,{passive:false});
+  canvas.addEventListener('touchcancel',endTouch,{passive:false});
+
+  window.addEventListener('blur',()=>{resetActive();activeSource=null;touchId=null},{passive:true});
+  document.addEventListener('visibilitychange',()=>{if(document.hidden){resetActive();activeSource=null;touchId=null}},{passive:true});
+}
+
+function drawAll(cells=Number(canvas?.dataset.cells||1)){
+  if(!ctx||!canvas)return;
+  const r=canvas.getBoundingClientRect();
+  ctx.clearRect(0,0,r.width,r.height);
+  ctx.strokeStyle='#1f2937';ctx.fillStyle='#1f2937';ctx.lineWidth=4;ctx.lineCap='round';ctx.lineJoin='round';
+  for(const s of strokes){
+    if(!s.length)continue;
+    if(s.length===1){ctx.beginPath();ctx.arc(s[0].x,s[0].y,2,0,Math.PI*2);ctx.fill();continue}
+    ctx.beginPath();ctx.moveTo(s[0].x,s[0].y);for(const p of s.slice(1))ctx.lineTo(p.x,p.y);ctx.stroke();
+  }
+}
+function undoStroke(){strokes.pop();drawAll()}function clearCanvas(){strokes=[];drawAll()}
+function renderReward(){el(`<main><h1>10問できました！</h1>${lastReward?`<img class="rewardImg" src="${lastReward.file}" alt="${lastReward.title}">`:''}<section class="card"><p>○ ${scores.circle}　△ ${scores.triangle}　× ${scores.cross}</p></section><div class="stack"><button class="primary" onclick="advance()">学習を続ける</button><button onclick="screen='result';render()">ここで終了する</button></div></main>`)}
+function renderResult(){el(`<main><h1>今回の学習結果</h1><section class="card"><p>取り組んだ問題：${index+1}問</p><p>○ ${scores.circle}　△ ${scores.triangle}　× ${scores.cross}</p></section><button class="primary" onclick="home()">ホームへ戻る</button></main>`)}
+function renderWeak(){el(`<main><button onclick="home()">← ホーム</button><h1>苦手一覧</h1>${weak().length?weak().map(q=>{const p=state.progress[q.id];return`<article class="card"><h3>${q.prompt}</h3><p>正答：${q.answer}</p><p>${q.meaning||''}</p><p>直近：${ratingSymbol(p.lastRating)}　累計 ○${p.circleCount||0} △${p.triangleCount||0} ×${p.crossCount||0}</p><button onclick="mode='weak';queue=[questions.find(x=>x.id==='${q.id}')];index=0;answerShown=false;screen='study';render()">この問題を練習</button></article>`}).join(''):'<p>苦手問題はありません。</p>'}</main>`)}
+function renderStats(){const round=state.sessions.filter(s=>s.mode==='round'||s.mode==='new'||s.mode==='review').reduce((a,s)=>a+s.count,0),random=state.sessions.filter(s=>s.mode==='random'||s.mode==='free').reduce((a,s)=>a+s.count,0);el(`<main><button onclick="home()">← ホーム</button><h1>成績</h1><section class="card"><p>周回出題：${round}問</p><p>ランダム出題：${random}問</p><p>苦手問題：${weak().length}問</p><p>現在：${state.round?.number||1}周目 ${state.round?.seen?.length||0} / ${questions.length}問</p></section></main>`)}
+function renderSettings(){el(`<main><button onclick="home()">← ホーム</button><h1>設定</h1><section class="card"><h2>ごほうび画像</h2><p>同梱画像：${rewards.length}枚</p><div class="thumbs">${rewards.map(r=>`<div><img src="${r.file}" alt="${r.title}"><p>${r.title}</p></div>`).join('')}</div></section><div class="stack"><button class="danger" onclick="resetData()">成績をリセット</button></div></main>`)}
+function resetData(){if(prompt('「リセット」と入力してください')==='リセット'){state={progress:{},sessions:[],rewardHistory:[],round:{number:1,seen:[]}};save();alert('成績をリセットしました');home()}}
+async function init(){try{const [q,r]=await Promise.all([fetch('questions.json',{cache:'no-store'}).then(x=>x.json()),fetch('rewards.json',{cache:'no-store'}).then(x=>x.json())]);questions=q.questions.filter(x=>x.enabled);rewards=r.rewards;render()}catch(e){el(`<main><h1>読み込みエラー</h1><p>questions.json または rewards.json を読み込めませんでした。</p><pre>${String(e)}</pre></main>`)}}
+init();
+</script>
+</body></html>
